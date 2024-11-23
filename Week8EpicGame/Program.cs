@@ -7,8 +7,8 @@ namespace DataFromFile
 {
     static void Main(string[] args)
     {
-            string filePathHeroes = @"/Users/anna-stina/Documents/Tehnikakõrgkool/2.kursus/C#/data/heroes.txt";
-            string filePathVillains = @"/Users/anna-stina/Documents/Tehnikakõrgkool/2.kursus/C#/data/villains.txt";
+            string filePathHeroes = @"/Users/anna-stina/Documents/Tehnikakõrgkool/2.kursus/C#/App/Week8EpicGame/data/heroes.txt";
+            string filePathVillains = @"/Users/anna-stina/Documents/Tehnikakõrgkool/2.kursus/C#/App/Week8EpicGame/data/villains.txt";
 
             string[] heroes = File.ReadAllLines(filePathHeroes);
             string[] villains = File.ReadAllLines(filePathVillains);
@@ -40,6 +40,7 @@ namespace DataFromFile
         }
 }
 }
+
 
 
 
